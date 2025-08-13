@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Complex Form</h1>
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+            <br/><br/>
+            <label for="Email">Email</label>
+            <input type="email" name="Email" id="Email">
+            <br/><br/>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone">
+            <br/><br/>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob" id="dob">
+            <br/><br/>
+            <p>Gender:</p>
+            <input type="radio" name="full" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="full" id="female">
+            <label for="female">Female</label>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <legend>Address</legend>
+            <label for="address">Street:</label>
+            <input type="text" name="address" id="address">
+            <label for="city">City: </label>
+            <input type="text" name="city" id="city">
+            <br/><br/>
+            <label for="state">State:</label>
+            <input type="text" name="state" id="state">
+            <label for="country">Country: </label>
+        <select name="country" id="country">
+            <option value="">--Select the Option--</option>
+            <option value="">India</option>
+            <option value="">Russia</option>
+            <option value="">USA</option>
+            <option value="">Others</option>
+        </select>
+            <label for="pincode">Pin-code:</label>
+            <input type="text" name="pincode" id="pincode">
+        </fieldset>
+        <br/><br/>
+        <fieldset>
+            <legend>Other Information</legend>
+            <label for="comments">Comments:</label>
+            <br/>
+            <textarea name="comments" id="comments"></textarea>
+            <br/>
+            <br/>
+            <label for="tremcondition">I agree to the term of conditions:</label>
+            <input type="checkbox" name="tremcondition" id="tremcondition">
+        </fieldset>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
